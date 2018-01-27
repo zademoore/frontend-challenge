@@ -1,0 +1,56 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  color: #47475C;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+}
+
+h2 {
+  padding-left: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+table {
+  width: 100%;
+}
+
+/* tr {
+  margin: 15px;
+} */
+
+th {
+  font-weight: bold;
+  padding: 1em;
+  text-align: left;
+}
+
+td {
+  padding: 1em;
+}
+
+tr {
+  border-bottom: 1px solid #47475C;
+}
+
+.bound-header{
+  background-color: #47475C;
+  color: #FFF;
+  font-size: 2em;
+  padding: 16px 0;
+}
+
+td.line {
+  width: 10%;
+}
+
+td.destination {
+  width: 50%;
+}
+
+td.frequency {
+  width: 40%;
+}
