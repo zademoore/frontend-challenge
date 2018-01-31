@@ -27,11 +27,15 @@ header {
   padding: 6px 16px;
 }
 
+.first-section header {
+  border-top: none;
+}
+
 
 .title {
   background-color: #fff;
   border: none;
-  box-shadow: 0px 3px 3px -3px #333;
+  box-shadow: 0px 3px 3px -3px #777;
   padding: 16px;
   position: fixed;
   top: 0;
@@ -49,7 +53,6 @@ h1 {
 .map {
   background: url(../images/map.png)top center no-repeat;
   background-size: cover;
-  box-shadow: inset 0 -3px 3px -3px #333;
   height: 356px;
   width: 420px;
   position: fixed;
@@ -57,11 +60,12 @@ h1 {
 }
 
 .scrolling {
-  top: 355px;
+  top: 356px;
   bottom: 0;
   position: fixed;
   overflow-y: scroll;
   max-width: 420px;
+  box-shadow: 0 -3px 3px -3px #777;
 }
 
 table {
